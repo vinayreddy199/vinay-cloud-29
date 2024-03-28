@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-image: url(../OYO/img/d3829b7018760892551561.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+.main{
+    display: flex;
+}
+
+.main p, h3{
+    padding: 30px;
+    font-weight: 600;
+    padding-left: 16px;
+    line-height: 30px;
+    color: #fff;
+}
+
+.main .cantan {
+    position: relative;
+    border: 3px solid black;
+    margin: 120px;
+   
+
+}
+
+.main .cantan h1 {
+    display: flex;
+    color: #fff;
+    font-size: 48px;
+    font-weight: 700;
+    padding: 0px 0px 17px;
+    line-height: 1.04;
+    margin: 0px;
+}
+
+.lbox{
+    border: 5px solid black;
+    background: white;
+    margin-right: 120px;
+    margin-top: 140px;
+    
+}
+
+.lbox .Sign{
+    margin-left: 50px;
+    line-height: 2.4;
+    color: #fff;
+    display: flex;
+    font-size: 14px;
+    margin: 0;
+    width: 100%;
+    font-weight: 700;
+    background-image: linear-gradient(270deg,#d11450,#ee2a24);
+    height: 36px;
+    padding-left: 35px;
+    justify-content: flex-start;
+}
+.login_card{
+    position: relative;
+    padding: 30px;
+    margin: 0;
+    border: 1px solid black;
+}
+.login_card .text1{
+    font-weight: bold;
+}

@@ -1,0 +1,387 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*Nav bar======================================*/
+.nav_bar{
+    overflow: hidden;
+    background-color: white;
+    padding: 10px ;
+    background-image: url(../OYO/img/OYO-Blog-Image.webp);
+    background-repeat: no-repeat;
+    background-position: 20px;
+    background-size: 80px;
+    text-decoration: none;
+    
+    
+}
+.nav_bar .logo img{
+    float: left;
+    margin: 10px;
+} 
+.nav_bar ul {
+    float: right;
+    display: flex;
+    font-size: 16px;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+   
+}
+.nav_bar ul {
+    cursor: pointer;
+   
+   
+}
+.nav_bar ul a{
+    color: black;
+    text-decoration: none;
+    padding: 10px 16px;
+    
+}
+
+/* button for English and hover<<<<<<<<<<<<<<<<<<<<*/
+.eng{
+    float: left;
+    overflow: hidden;
+    
+}
+.eng .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 10px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    cursor: pointer;
+}   
+.nav_bar ul .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-sizing: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.nav_bar ul .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.nav_bar ul .dropdown-content a:hover {
+    background-color: #ddd;
+}
+.eng:hover .dropdown-content {
+    display: block;
+}
+.nav_bar ul #B{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: black;
+    
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    cursor: pointer;
+}
+.eng .dropbtn:hover{
+    background-color: #ddd;
+
+}
+
+/* Nav bar 2 ============================================*/
+.state {
+    display: flex;
+    justify-content: center;
+    background-color: #ddd;
+    padding: 10px;    
+}
+.state a {
+    justify-content: space-between;
+    padding: 10px 45px;
+    text-decoration: none;
+    color: black;
+}
+/*bangalor hovwe<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+.bangl, .chen, .del, .guron, .hyd, .kol, .nod, .mum, .pun {
+    float: left;
+    overflow: hidden;
+}
+.bangl .dropbtn01 , 
+.chen .dropbtn01 , 
+.del .dropbtn01 , 
+.guron .dropbtn01 , 
+.hyd .dropbtn01,
+.kol .dropbtn01,
+.nod .dropbtn01,
+.mum .dropbtn01,
+.pun .dropbtn01
+{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 10px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    cursor: pointer;
+    z-index: 1;
+}
+.state ul .dropdown-content01 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-sizing: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.state ul .bangl .dropdown-content01 a , 
+.chen .dropdown-content01 a, 
+.del .dropdown-content01 a , 
+.guron .dropdown-content01 a , 
+.hyd .dropdown-content01 a ,
+.kol .dropdown-content01 a ,
+.nod .dropdown-content01 a ,
+.mum .dropdown-content01 a ,
+.pun .dropdown-content01 a 
+{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    z-index: 1;
+}
+.state ul .dropdown-content01 a:hover {
+    background-color: #ddd;
+}
+.bangl:hover .dropdown-content01,
+.chen:hover .dropdown-content01, 
+.del:hover .dropdown-content01, 
+.guron:hover .dropdown-content01 , 
+.hyd:hover .dropdown-content01, 
+.kol:hover .dropdown-content01, 
+.nod:hover .dropdown-content01, 
+.mum:hover .dropdown-content01, 
+.pun:hover .dropdown-content01
+
+{
+    display: block;
+    z-index: 1;
+    
+
+}
+
+
+
+/* background img ==============================================*/
+.bgi{
+    background-image:
+    linear-gradient(to bottom, rgba(223,41, 58), rgba(117, 19, 93, 0.73)),
+    url('oyoht.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background: -1;
+}
+.bgi h1 {
+    justify-content:center ;
+    color: white;
+    font-family: sans-serif;
+    text-decoration: none;
+    padding: 40px 60px;
+    text-align: center;
+}
+
+.bgi .topnav .search-container{
+    z-index: -4;
+    left: 50;
+ 
+}
+.bgi .topnav input[type=text] {
+    padding: 80px;
+    font-size: 300px;
+    border: none;
+ 
+   
+}
+.bgi .topnav .search-container button {
+    border: none;
+    background: #ddd;
+    cursor: pointer;
+    
+
+}
+.bgi .topnav .search-container button:hover {
+    background: #ccc;
+  
+  }
+.bgi .cont{
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    padding: 20px ;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}  
+.bgi .cont h3 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    min-width: 170px;
+    margin: 0 20px 0 0;
+    text-shadow: 2px 4px 8px rgba(0,0,0,.2);
+}
+.bgi .cont .butt button{
+    border: 2px solid #fff;
+    border-radius: 4px;
+    font-weight: 700;
+    color: #fff;
+    font-size: 12px;
+    background-color: transparent;
+    padding: 8px;
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+/* Advs img=====================*/
+.img1{
+    margin: 40px 80px 40px 80px;
+    
+}
+.img2{
+    margin: 40px 80px 40px 80px;
+    
+}
+
+
+/*box================================================================*/
+.ur_mail{
+    padding: 20px;
+    margin: 60px;
+    border: #F0F0F0  solid ;
+    border-radius: 10px;
+    display: flex;
+}
+.ur_mail img{
+  width: 60px
+  
+}
+.ur_mail h3{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 10px 0px 10px;
+    -webkit-letter-spacing: -0.28px;
+    -moz-letter-spacing: -0.28px;
+    -ms-letter-spacing: -0.28px;
+    letter-spacing: -0.28px;
+    color: #212121
+}
+.ur_mail p{
+    padding: 0px 10px 0px 10px;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: rgba(0,0,0,0.5);
+}
+
+.ur_mail .sch {
+    position: relative;
+    top: -8px;
+    padding: 0 5px;
+    background: white;
+    left: 8px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    -webkit-letter-spacing: 0.2px;
+    -moz-letter-spacing: 0.2px;
+    -ms-letter-spacing: 0.2px;
+    letter-spacing: 0.2px;
+    color: rgba(0,0,0,0.5);
+}
+.ur_mail .input1 {
+    
+    float: right;
+    
+
+    outline: 0;
+    color: #222;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #212121;
+    border: 1px solid rgba(0,0,0,0.12);
+    box-sizing: border-box;
+    border-radius: 6px ;
+    padding: 11px;
+    width: 328px;
+}
+.Nbtn{
+   
+    
+    box-sizing: border-box;
+    background: #ee2a24;
+    border-radius: 6px;
+    height: 48px;
+    padding: 12px 38px;
+    width: auto;
+    margin-left: 16px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+    text-align: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+
+/* end gray div */
+.gry{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #6d787d;
+    color: white;
+    font-family: sans-serif;
+    font-size: large;
+}
+.gry h3 {
+    padding: 20px;
+    float: inline-start;
+}
+.gry .gbtn {
+    display: flex;
+   
+   
+    color: #6d787d;
+    margin: 10px;
+    height: 48px;
+    min-width: 100px;
+    background: #fff;
+    border-radius: 6px;
+    padding: 20px;
+    font-weight: 700;
+    border: none;
+    align-items: center;
+    display: flex;
+   
+    cursor: pointer;
+    outline: none;
+}
+.gry img{
+    background-color: #6d787d ;
+}
+.download {
+    background-color: #6d787d;
+    color: #fff;
+}
